@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallpapercave.com/wp/wp1862825.jpg);
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.5;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+header {
+  height: 60px;
+  width: auto;
+  background-color: #1e2021;
+}
+.header-left {
+  font-size: 30px;
+  padding: 20px 10px;
+  float: left;
+  color: #F7799A;
+  font-family: "Rea Madrid 2021 UCL";
+}
+.header-right {
+  float: right;
+  background-color: #F7799A;
+  transition: all 0.7s;
+
+}
+.header-right:hover {
+  background-color: #C0788B;
+}
+.header-right a {
+  line-height: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #ffffff;
+  display: block;
+}
+h1 span {
+  color: #F7799A;
+}
+nav {
+  float: right;
+  line-height: 60px;
+  padding-right: 30px;
+  transition:all 0.9s;
+}
+nav a{
+  color: #F7799A;
+  text-decoration: none;
+  width : 120px;
+  font-family: "Rea Madrid 2021 UCL";
+  letter-spacing: 3px;
+  padding-left: 25px;
+}
+.icon{
+  width : 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 110px;
+}
+.tombol {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #f1f1f1f1;
+  margin: 10px;
+  border-radius: 25px;
+  box-sizing: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  position: relative;
+  color:#F7799A;
+}
+.tombol i {
+  transition: 0.2S linear;
+  font-size: 30px;
+  line-height: 70px;
+}
+.tombol:hover i{
+  transform: scale(1.2);
+  color:#C0788B;
+}
+footer {
+  padding : 70px 0 100px 0;
+  background-color: #1e2021;
+  text-align: center;
+}
+footer h3 {
+  font-size: 15px;
+  opacity : 0,7px;
+  color: #ffffff;
+}
+footer p {
+  color: #ffffff;
+  opacity: 0,7;
+}
+.button-3d {
+  padding: 12px 24px;
+  color: #000000;
+  display: inline-block;
+  opacity: 0,7px;
+  border-radius: 2px;
+}
+.Tombol-3d {
+  padding: 10px 40px;
+  border-radius: 10px;
+  float: left;
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #F7799A;
+  border-bottom: 4px solid #916C76;
+}
+@media (max-width: 720px) {
+  header {
+    width : 104%;
+  }
+  .header-left{
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  .container {
+    width: 111%;
+  }
+  nav {
+    font-size: 12px;
+  }
+  .top-wrapper {
+    width : 119%;
+  }
+  .top-wrapper h1{
+    font-size: 17px;
+    padding-right: 80px;
+  }
+  .top-wrapper p{
+    font-size: 12px;
+    padding-right: 80px;
+  }
+  .icon{
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 110px;
+    padding-left: 130px;
+  }
+  .tombol {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1f1;
+    margin: 10px;
+    border-radius: 15px;
+    box-sizing: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color:#F7799A;
+  }
+    .tombol i {
+      transition: 0.2S linear;
+      font-size: 25px;
+      line-height: 50px;
+      margin-left: 13px;
+}
+    footer {
+      width: 119%;
+    }
+    footer h3 {
+      font-size: 12px;
+      padding-right: 85px;
+    }
+    footer p {
+      font-size: 12px;
+      padding-right: 85px;
+    }
+    .button-3d {
+      padding-right: 110px;
+    }
+
+}
